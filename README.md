@@ -42,7 +42,7 @@ A real-time chat application built with React for the frontend and Node.js with 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/chat-app.git
+   git clone https://github.com/RAJBARASARA/chat-app
    cd chat-app
    ```
 
@@ -60,9 +60,9 @@ A real-time chat application built with React for the frontend and Node.js with 
 
 4. Create a `.env` file in the `server` directory and add your MongoDB connection string and other environment variables:
    ```plaintext
-   MONGO_URL=your_mongodb_connection_string
+   MONGO_URL="mongodb://localhost:27017/chat"
    PORT=8008
-   REACT_APP_LOCALHOST_KEY=your_localhost_key
+   REACT_APP_LOCALHOST_KEY="chat-app-current-user"
    ```
 
 ## Usage
